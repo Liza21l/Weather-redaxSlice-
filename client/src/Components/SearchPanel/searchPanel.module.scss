@@ -1,0 +1,31 @@
+.searchPanel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(60, 139, 249);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 400px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    background: white;
+    &_input{
+        border: none;
+        width: 350px;
+        height: 40px;
+        background: none;
+        &:focus{
+            outline: none;
+        }
+    }
+    &_btnSearch{
+        cursor: pointer;
+        border: none;
+        background: white;
+        width: 30px;
+        height: 30px;
+        background: none;
+    }
+}
